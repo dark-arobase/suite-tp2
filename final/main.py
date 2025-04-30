@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import simpledialog
 from tkinter import messagebox
 from ui.utilisateur_ui import creer_utilisateur, se_connecter, modifier_utilisateur, supprimer_utilisateur
 from ui.forum_ui import creer_forum, rejoindre_forum
@@ -6,6 +7,8 @@ from ui.publication_ui import creer_publication
 from ui.commentaire_ui import ajouter_commentaire
 from models.utilisateur import Utilisateur
 from models.forum import Forum
+from models.publication import Publication
+from models.commentaire import Commentaire
 
 # Données en mémoire
 utilisateurs = []
