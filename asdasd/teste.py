@@ -1,6 +1,7 @@
 import tkinter as tk
 import os
 
+
 def quitter_et_lancer_piege():
     os.system('"C:/Program Files/Python312/python.exe" asdasd/piege.py')  # <-- corrige le chemin si nécessaire
     root.destroy()
