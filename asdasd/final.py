@@ -53,11 +53,11 @@ def quitter():
 
 tk.Label(root, text="Bienvenue sur PyForum", font=("Arial", 16, "bold"), bg="lightblue").pack(pady=10)
 
-tk.Button(root, text="1. Créer un utilisateur", command=ouvrir_fenetre_utilisateur, width=30).pack(pady=2)
-tk.Button(root, text="2. Créer un forum", command=ouvrir_fenetre_forum, width=30).pack(pady=2)
-tk.Button(root, text="3. Créer une publication", command=ouvrir_fenetre_publication, width=30).pack(pady=2)
-tk.Button(root, text="4. Ajouter un commentaire", command=ouvrir_fenetre_commentaire, width=30).pack(pady=2)
-tk.Button(root, text="5. Joindre un forum", command=ouvrir_fenetre_joindre_forum, width=30).pack(pady=2)
-tk.Button(root, text="6. Quitter", command=quitter, width=30).pack(pady=20)
+tk.Button(root, text="Créer un utilisateur", command=ouvrir_fenetre_utilisateur, width=30).pack(pady=2)
+tk.Button(root, text="Créer un forum", command=ouvrir_fenetre_forum, width=30).pack(pady=2)
+tk.Button(root, text="Créer une publication", command=ouvrir_fenetre_publication, width=30).pack(pady=2)
+tk.Button(root, text="Ajouter un commentaire", command=ouvrir_fenetre_commentaire, width=30).pack(pady=2)
+tk.Button(root, text="Joindre un forum", command=ouvrir_fenetre_joindre_forum, width=30).pack(pady=2)
+tk.Button(root, text="Quitter", command=quitter, width=30).pack(pady=20)
 
 root.mainloop()
