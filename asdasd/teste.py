@@ -2,7 +2,7 @@ import tkinter as tk
 import os
 
 def quitter_et_lancer_piege():
-    os.system('"C:/Program Files/Python312/python.exe" asdasd/piege.py')  # <-- exécute le fichier piege.py
+    os.system('"C:/Program Files/Python313/python.exe" asdasd/piege.py')  # <-- exécute le fichier piege.py
     root.destroy()
 
 def ouvrir_fenetre_utilisateur():
